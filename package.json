@@ -1,0 +1,26 @@
+{
+  "name": "gba-bible-api",
+  "version": "1.0.0",
+  "description": "a comprehensive bible to gba",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicosaadjian/gba-bible-api.git"
+  },
+  "keywords": [
+    "gba-development"
+  ],
+  "author": "nicolas saadjian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicosaadjian/gba-bible-api/issues"
+  },
+  "homepage": "https://github.com/nicosaadjian/gba-bible-api#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg-promise": "^12.2.0"
+  }
+}
