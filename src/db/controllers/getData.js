@@ -1,14 +1,17 @@
 // aca vamos a hacer la logica del app.get pero modularizada a funcion
 
-/*
+const express = require('express');
+const db = require('../config/db');
 
-// --- Funciones para manejar la DB ---
-// hacer los fetch y post
-async function getPhrases() {
+async function getDataByQuery(query = null){
     try {
-        return await db.any('SELECT * FROM frases');
+        const res = await db.any(query);
+        return res;
     } catch (err) {
-        console.error('Error consultando la DB:', err);
-        return [];
+        const res = 'Error en la conexion, intente mas tarde.';
+        console.log(res);
+        // window.alert(res);
     }
-}*/
+}
+
+module.exports = getDataByQuery;

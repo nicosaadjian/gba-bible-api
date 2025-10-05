@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/nicosaadjian/gba-bible-api#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "pg-promise": "^12.2.0"
   }
