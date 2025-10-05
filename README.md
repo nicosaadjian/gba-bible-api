@@ -2,6 +2,12 @@
 A comprehensive bible about the classic console Gameboy Advance
 
 # How to use the API
+## Steps
+1. Download repo
+2. Open Powershell / Terminal
+3. cd ~/download_location/ 
+4. node server.js
+5. Enjoi
 
 ## Endpoints
 1. /gba: General information about the GBA console
