@@ -6,7 +6,7 @@ const getDataByQuery = require('../db/controllers/getData');
 
 router.get('/', async (req, res) => {
     // res.send("GBA development endpoint");
-    const data = await getDataByQuery('SELECT * FROM peripherals;');
+    const data = await getDataByQuery('SELECT * FROM dev;');
     res.json(data);
 });
 
